@@ -1,0 +1,12 @@
+# IntelliJ
+.idea
+*.iml
+
+# Python
+~*/
+__pycache__/
+*.pyc
+
+# Production
+/logs.txt
+/settings_prod.py
