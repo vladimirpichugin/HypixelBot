@@ -10,3 +10,4 @@ __pycache__/
 # Production
 /logs.txt
 /settings_prod.py
+plugins/superdebug.py
