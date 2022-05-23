@@ -90,7 +90,7 @@ class MemberInvitePlugin(CommandPlugin):
                         "action": {
                             "type": "open_link",
                             "label": "&#127856; Команды бота",
-                            "link": "https://vk.com/@hypebot-commands"
+                            "link": "https://vk.com/@hypixelbot-commands"
                         }
                     }
                 ])
@@ -100,7 +100,7 @@ class MemberInvitePlugin(CommandPlugin):
                         "action": {
                             "type": "open_link",
                             "label": "&#128081; Пригласить бота в свою беседу",
-                            "link": "https://vk.com/@hypebot-setup"
+                            "link": "https://vk.com/@hypixelbot-setup"
                         }
                     }
                 ])

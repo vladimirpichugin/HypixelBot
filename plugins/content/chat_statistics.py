@@ -59,14 +59,14 @@ class StatisticsPlugin(CommandPlugin):
                             {
                                 'action': {
                                     'type': 'open_link',
-                                    'label': '&#127850; Подписка PLUS',
-                                    'link': 'https://vk.com/@hypebot-plus'
+                                    'label': '&#127850; Подписка Extra',
+                                    'link': 'https://vk.com/@hypixelbot-extra'
                                 }
                             }
                         ]
                     ]
                 })
-                return await msg.answer("&#129392; Активируйте Подписку PLUS, чтобы смотреть статистику беседы.", keyboard=keyboard)
+                return await msg.answer("&#129392; Активируйте Подписку Extra, чтобы смотреть статистику беседы.", keyboard=keyboard)
             count = maximum if int(args[-1]) > maximum else int(args[-1])
         
         statistics = sorted(

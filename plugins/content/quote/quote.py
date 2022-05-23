@@ -37,22 +37,6 @@ class Quote(CommandPlugin):
             #'background_image': 'https://pp.userapi.com/c851236/v851236234/68144/t6TVwOwuXho.jpg'
         }
         clients_settings = {
-            -45800325: {
-                'name': 'vk.com/hypixel',
-                'crop': {"x": 0, "y": 0, "x2": 100, "y2": 100}
-            },
-            -182728055: {
-                'name': 'Тех. поддержка',
-                'crop': {"x": 0, "y": 0, "x2": 100, "y2": 100}
-            },
-            -194371480: {
-                'name': 'HypeBot',
-                'crop': {"x": 0, "y": 0, "x2": 100, "y2": 100}
-            },
-            -120008211: {
-                'name': 'RuGaming',
-                'crop': {"x": 0, "y": 0, "x2": 100, "y2": 100}
-            },
             423920738: {
                 'name': 'Vladimir Pichugin',
                 'crop': {"x": 4.27, "y": 0, "x2": 95.59, "y2": 100}
@@ -253,7 +237,7 @@ class Quote(CommandPlugin):
         
         draw.multiline_text((25, rsize[1]-75), f"© {' '.join(name)}", font=self.fs, fill=text_color)
         draw.multiline_text((25, rsize[1]-55), f"@ {timestamp}", font=self.fs, fill=text_color)
-        draw.multiline_text((25, rsize[1]-25), "vk.com/hypebot", font=self.fss, fill=text_color)
+        draw.multiline_text((25, rsize[1]-25), "vk.com/hypixelbot", font=self.fss, fill=text_color)
             
         buff = io.BytesIO()
         res.save(buff, format='png')

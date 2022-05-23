@@ -77,7 +77,7 @@ class ChatMetaPlugin(BasePlugin):
                             "action": {
                                 "type": "open_link",
                                 "label": "&#128073; Как выдать админку?",
-                                "link": "https://vk.com/@hypebot-setup-admin"
+                                "link": "https://vk.com/@hypixelbot-setup-admin"
                             }
                         }
                     ],

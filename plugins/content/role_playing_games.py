@@ -1020,14 +1020,14 @@ class ContentRolePlayingGamesPlugin(CommandPlugin):
                             {
                                 'action': {
                                     'type': 'open_link',
-                                    'label': '&#127850; Подписка PLUS',
-                                    'link': 'https://vk.com/@hypebot-plus'
+                                    'label': '&#127850; Подписка Extra',
+                                    'link': 'https://vk.com/@hypixelbot-extra'
                                 }
                             }
                         ]
                     ]
                 })
-                return await msg.answer("&#128286; Активируйте Подписку PLUS, чтобы использовать ролевые игры для взрослых.", keyboard=keyboard)            
+                return await msg.answer("&#128286; Активируйте Подписку Extra, чтобы использовать ролевые игры для взрослых.", keyboard=keyboard)
         
         username = await get_username(msg)        
         sex = None
@@ -1051,14 +1051,14 @@ class ContentRolePlayingGamesPlugin(CommandPlugin):
                             {
                                 'action': {
                                     'type': 'open_link',
-                                    'label': '&#127850; Подписка PLUS',
-                                    'link': 'https://vk.com/@hypebot-plus'
+                                    'label': '&#127850; Подписка Extra',
+                                    'link': 'https://vk.com/@hypixelbot-extra'
                                 }
                             }
                         ]
                     ]
                 })
-                return await msg.answer("&#129392; Активируйте Подписку PLUS, чтобы использовать реплики к ролевым играм.", keyboard=keyboard)
+                return await msg.answer("&#129392; Активируйте Подписку Extra, чтобы использовать реплики к ролевым играм.", keyboard=keyboard)
             if reply: message += f"\n&#128172; С репликой: «{reply}»"
         
         return await msg.answer(message, disable_mentions=1)

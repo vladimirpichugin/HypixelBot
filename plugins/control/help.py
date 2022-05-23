@@ -19,7 +19,7 @@ class HelpPlugin(CommandPlugin):
                         "action": {
                             "type": "open_link",
                             "label": "&#127856; Команды бота",
-                            "link": "https://vk.com/@hypebot-commands"
+                            "link": "https://vk.com/@hypixelbot-commands"
                         }
                     }
                 ],
@@ -28,7 +28,7 @@ class HelpPlugin(CommandPlugin):
                         "action": {
                             "type": "open_link",
                             "label": "&#10084; Команды Hypixel",
-                            "link": "https://vk.com/@hypebot-hypixel"
+                            "link": "https://vk.com/@hypixelbot-hypixel"
                         }
                     }
                 ],
@@ -37,7 +37,7 @@ class HelpPlugin(CommandPlugin):
                         "action": {
                             "type": "open_link",
                             "label": "&#128081; Пригласить бота в свою беседу",
-                            "link": "https://vk.com/@hypebot-setup"
+                            "link": "https://vk.com/@hypixelbot-setup"
                         }
                     }
                 ]

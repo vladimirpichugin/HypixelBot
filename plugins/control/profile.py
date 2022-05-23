@@ -256,7 +256,7 @@ class ProfilePlugin(CommandPlugin):
         
         if not m or m == msg.from_id:
             if msg.meta["is_supporter"]:
-                message += "\n\n&#129392; Подписчица PLUS." if sex else" \n\n&#129392; Подписчик PLUS." 
+                message += "\n\n&#129392; Подписчица Extra." if sex else" \n\n&#129392; Подписчик Extra."
 
         columns = []
         
@@ -265,9 +265,8 @@ class ProfilePlugin(CommandPlugin):
             staff_buttons.reverse()
             columns.append(staff_buttons)
         if super_staff_buttons: columns.append(super_staff_buttons)
-        
 
-        columns.append([{"action": {"type": "open_link", "link": "https://vk.com/@hypebot-plus", "label": "&#129392; Подписка PLUS"}}])
+        columns.append([{"action": {"type": "open_link", "link": "https://vk.com/@hypixelbot-extra", "label": "&#129392; Подписка Extra"}}])
         
         if columns:
             keyboard = json.dumps({"inline": True, "buttons": columns})

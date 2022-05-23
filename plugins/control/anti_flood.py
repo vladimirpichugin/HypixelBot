@@ -59,8 +59,8 @@ class AntiFloodPlugin(BasePlugin):
                             {
                                 'action': {
                                     'type': 'open_link',
-                                    'label': '&#127850; PLUS — Снять лимиты',
-                                    'link': 'https://vk.com/@hypebot-plus'
+                                    'label': '&#127850; Снять лимиты — Extra',
+                                    'link': 'https://vk.com/@hypixelbot-extra'
                                 }
                             }
                         ]

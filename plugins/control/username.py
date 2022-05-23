@@ -86,14 +86,14 @@ class UsernamePlugin(CommandPlugin):
                             {
                                 'action': {
                                     'type': 'open_link',
-                                    'label': '&#127850; Подписка PLUS',
-                                    'link': 'https://vk.com/@hypebot-plus'
+                                    'label': '&#127850; Подписка Extra',
+                                    'link': 'https://vk.com/@hypixelbot-extra'
                                 }
                             }
                         ]
                     ]
                 })
-                return await msg.answer(f"&#128545; {current_username}, такой ник установить нельзя.\nНик содержит емоджи.\n\n&#127850; Для использования емоджи требуется подписка PLUS.", keyboard=keyboard)
+                return await msg.answer(f"&#128545; {current_username}, такой ник установить нельзя.\nНик содержит емоджи.\n\n&#127850; Для использования емоджи требуется подписка Extra.", keyboard=keyboard)
             
             spaces = len(re.findall(r' ', text))
             emojis = len(re.findall(self.regexp_emoji, emoji.demojize(text)))
@@ -113,8 +113,8 @@ class UsernamePlugin(CommandPlugin):
                                 {
                                     'action': {
                                         'type': 'open_link',
-                                        'label': '&#127850; Подписка PLUS',
-                                        'link': 'https://vk.com/@hypebot-plus'
+                                        'label': '&#127850; Подписка Extra',
+                                        'link': 'https://vk.com/@hypixelbot-extra'
                                     }
                                 }
                             ]
@@ -141,8 +141,8 @@ class UsernamePlugin(CommandPlugin):
                                 {
                                     'action': {
                                         'type': 'open_link',
-                                        'label': '&#127850; Подписка PLUS',
-                                        'link': 'https://vk.com/@hypebot-plus'
+                                        'label': '&#127850; Подписка Extra',
+                                        'link': 'https://vk.com/@hypixelbot-extra'
                                     }
                                 }
                             ]
@@ -165,13 +165,13 @@ class UsernamePlugin(CommandPlugin):
                                         'action': {
                                             'type': 'open_link',
                                             'label': '&#8505; Условия использования',
-                                            'link': 'https://vk.com/@hypebot-terms'
+                                            'link': 'https://vk.com/@hypixelbot-terms'
                                         }
                                     }
                                 ]
                             ]
                         })
-                        return await msg.answer(f"&#128545; {current_username}, такой ник установить нельзя.\nВыбранный ник нарушает условия использования HypeBot. Если попытки продолжатся, мы запретим вам изменять ник.", keyboard=keyboard)
+                        return await msg.answer(f"&#128545; {current_username}, такой ник установить нельзя.\nВыбранный ник нарушает условия использования бота. Если попытки продолжатся, мы запретим вам изменять ник.", keyboard=keyboard)
                     
             username_raw = text
             username = emoji.demojize(username_raw)

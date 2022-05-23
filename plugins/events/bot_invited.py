@@ -18,7 +18,7 @@ class BotInvitePlugin(CommandPlugin):
         if evnt.action_type in ("chat_invite_user", ):
             member_id = evnt.msg.action.get("member_id", None)
             if member_id and abs(member_id) == self.api.get_current_id():
-                message = "Чат-менеджер HypeBot."
+                message = "Hypixel статистика в вашей беседе ВКонтакте."
                 
                 keyboard = {
                     "inline": True,
@@ -27,8 +27,8 @@ class BotInvitePlugin(CommandPlugin):
                             {
                                 "action": {
                                     "type": "open_link",
-                                    "label": "&#127856; Команды бота",
-                                    "link": "https://vk.com/@hypebot-commands"
+                                    "label": "&#127856; Команды Hypixel",
+                                    "link": "https://vk.com/@hypixelbot-hypixel"
                                 }
                             }
                         ]

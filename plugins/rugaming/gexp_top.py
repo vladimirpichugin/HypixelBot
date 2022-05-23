@@ -113,7 +113,7 @@ class RuGamingGexpTopPlugin(CommandPlugin):
                             
                             code = response['response'].get("code", None)
                             if code == -1000:
-                                message = "&#10060; Бот отключен для проведения технического обслуживания, следите за новостями в сообществе [public194371480|HypeBot]."
+                                message = "&#10060; Бот отключен для проведения технического обслуживания, следите за новостями в сообществе [public194371480|Hypixel Статистика]."
                             elif code == -1001:
                                 message = "&#10060; Команда отключена для проведения технического обслуживания."
                             elif code <= 0:
@@ -122,7 +122,7 @@ class RuGamingGexpTopPlugin(CommandPlugin):
                     else:
                         raise RuntimeError(f'Bad response json schema: response[ok] != False. Response: {response}')
             else:
-                return await msg.answer("&#10060; Бот отключен для проведения технического обслуживания, следите за новостями в сообществе [public194371480|HypeBot].")
+                return await msg.answer("&#10060; Бот отключен для проведения технического обслуживания, следите за новостями в сообществе [public194371480|Hypixel Статистика].")
         except (aiohttp.client_exceptions.ContentTypeError, json.decoder.JSONDecodeError):
             self.api.logger.error(traceback.format_exc())
             message = "&#128575; Произошла ошибка при обработке данных от вышестоящего API (2, Malformed json)."

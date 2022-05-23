@@ -168,7 +168,7 @@ class ControlPlugin(CommandPlugin):
                             "action": {
                                 "label": "Статья: Управление ботом",
                                 "type": "open_link",
-                                "link": "https://vk.com/@hypebot-commands?anchor=3-upravlenie-botom"
+                                "link": "https://vk.com/@hypixelbot-commands?anchor=3-upravlenie-botom"
                             }
                         }
                     ]
