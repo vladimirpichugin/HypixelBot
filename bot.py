@@ -49,7 +49,7 @@ class Bot:
         self.logger.info("Bot successfully initialized")
 
     def init_logger(self):
-        logger = logging.Logger("hypebot", level=logging.DEBUG if self.settings.DEBUG else logging.INFO)
+        logger = logging.Logger("hypixelbot", level=logging.DEBUG if self.settings.DEBUG else logging.INFO)
 
         formatter = logging.Formatter(
             fmt=u'[%(asctime)s] %(levelname)-8s: %(message)s',

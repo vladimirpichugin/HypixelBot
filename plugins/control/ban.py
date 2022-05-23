@@ -506,14 +506,14 @@ class BanPlugin(CommandPlugin):
                                     "action": {
                                         "type": "open_link",
                                         "label": "&#127829; Инструкция: Права администратора",
-                                        "link": "https://vk.com/@hypebot-setup-admin"
+                                        "link": "https://vk.com/@hypixelbot-setup-admin"
                                     }
                                 }
                             ]
                         ]
                     }
                     
-                    return await msg.answer(f"&#128545; Не могу исключить {target_username} из беседы.\n.HypeBot не назначен администратором беседы.", keyboard=json.dumps(keyboard))
+                    return await msg.answer(f"&#128545; Не могу исключить {target_username} из беседы.\n.Бот не назначен администратором беседы.", keyboard=json.dumps(keyboard))
                 elif error_code in [935, 15]:
                     pass
             """

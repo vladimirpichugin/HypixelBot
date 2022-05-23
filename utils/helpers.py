@@ -729,9 +729,9 @@ async def create_report(msg, plugin=None, err_code=None, return_keyboard=True, r
     
     if return_keyboard:
         if register:
-            link = f'https://pichugin.life/app_report?product=hypebot&eid={err_code}&plugin={plugin_name}&fid={msg.from_id}&cid={-1 if not msg.is_chat else msg.chat_id}'
+            link = f'https://pichug.in/app_report?product=hypixelbot&eid={err_code}&plugin={plugin_name}&fid={msg.from_id}&cid={-1 if not msg.is_chat else msg.chat_id}'
         else:
-            link = f'https://pichugin.life/app_report?act=new&product=hypebot&eid={err_code}&plugin={plugin_name}&fid={msg.from_id}&cid={-1 if not msg.is_chat else msg.chat_id}'
+            link = f'https://pichug.in/app_report?act=new&product=hypixelbot&eid={err_code}&plugin={plugin_name}&fid={msg.from_id}&cid={-1 if not msg.is_chat else msg.chat_id}'
         
         return json.dumps({
             'inline': True,

@@ -14,7 +14,7 @@ class BotSettings(BaseSettings):
     
     DEFAULTS["PREFIXES"] = DEFAULT_PREFIXES = (".", "/", ",", "!", "-", "+", )
     
-    USER_AGENT = "HypeBot/1.0"
+    USER_AGENT = "HypixelBot/1.0 (https://github.com/vladimirpichugin/HypixelBot)"
     API_URI = ""
     API_LICENSE_KEY = ""
     

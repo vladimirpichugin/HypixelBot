@@ -999,7 +999,7 @@ class ContentRolePlayingGamesPlugin(CommandPlugin):
                             'action': {
                                 'type': 'open_link',
                                 'label': '&#128166; Список ролевых игр',
-                                'link': 'https://vk.com/@hypebot-commands?anchor=13-rolevye-igry'
+                                'link': 'https://vk.com/@hypixelbot-commands?anchor=13-rolevye-igry'
                             }
                         }
                     ]
