@@ -1,7 +1,7 @@
-# HypeBot
-Бот чат-менеджер для вашей беседы.
+# Hypixel Bot
+Статистика в вашей беседе ВКонтакте.
 
-[![HypeBot Download](https://img.shields.io/badge/HypeBot-download-blue.svg?logo=github&style=for-the-badge)](https://github.com/vladimirpichugin/HypeBot/archive/master.zip)
+[![Hypixel Bot Download](https://img.shields.io/badge/HypixelBot-download-blue.svg?logo=github&style=for-the-badge)](https://github.com/vladimirpichugin/HypixelBot/archive/master.zip)
 
 [![Python](https://img.shields.io/badge/Python->%3D3.7-blue.svg?style=flat-square)](https://python.org)
 [![pymongo](https://img.shields.io/badge/pymongo-3.7.1-green.svg?style=flat-square)](https://pypi.org/project/requests)
@@ -12,7 +12,7 @@
 [![emoji](https://img.shields.io/badge/emoji-1.6.1-yellow.svg?style=flat-square)](https://pypi.org/project/emoji)
 [![python-dateutil](https://img.shields.io/badge/dateutil-2.6.1-darkgreen.svg?style=flat-square)](https://pypi.org/project/python-dateutil)
 
-[![Донат](https://img.shields.io/badge/Донат-Qiwi-orange.svg)](https://pichugin.life/donate) [![Официальная группа](https://img.shields.io/badge/Официальная-группа-lightblue.svg)](https://vk.com/hypebot)
+[![Донат](https://img.shields.io/badge/Донат-Qiwi-orange.svg)](https://pichug.in/donate?project=hypixelbot) [![Официальная группа](https://img.shields.io/badge/Официальная-группа-lightblue.svg)](https://vk.com/hypixelbot)
 
 ***
 
@@ -57,20 +57,20 @@ python runner.py
 
 ## Другие команды
 
-* [Правила беседы](https://vk.com/@hypebot-commands?anchor=4-pravila-besedy)
-* [Бан](https://vk.com/@hypebot-commands?anchor=5-ban)
-* [Мут](https://vk.com/@hypebot-commands?anchor=6-mut)
-* [Кик](https://vk.com/@hypebot-commands?anchor=7-kik)
-* [Роли и права](https://vk.com/@hypebot-commands?anchor=8-roli-i-prava)
-* [Профиль](https://vk.com/@hypebot-commands?anchor=9-profil)
-* [Награды](https://vk.com/@hypebot-commands?anchor=10-nagrady)
-* [Дуэли](https://vk.com/@hypebot-commands?anchor=11-dueli)
-* [Браки](https://vk.com/@hypebot-commands?anchor=12-braki)
-* [Ролевые игры](https://vk.com/@hypebot-commands?anchor=13-rolevye-igry)
-* [Генератор цитат](https://vk.com/@hypebot-commands?anchor=14-tsitaty)
-* [API Интеграция](https://vk.com/@hypebot-commands?anchor=15-api-integratsia)
-* ~~Команды Hypixel в отдельной [статье](https://vk.com/@hypebot-hypixel-commands).~~
+* [Статистика на Hypixel](https://vk.com/@hypixelbot-hypixel)
+* [Правила беседы](https://vk.com/@hypixelbot-commands?anchor=4-pravila-besedy)
+* [Бан](https://vk.com/@hypixelbot-commands?anchor=5-ban)
+* [Мут](https://vk.com/@hypixelbot-commands?anchor=6-mut)
+* [Кик](https://vk.com/@hypixelbot-commands?anchor=7-kik)
+* [Роли и права](https://vk.com/@hypixelbot-commands?anchor=8-roli-i-prava)
+* [Профиль](https://vk.com/@hypixelbot-commands?anchor=9-profil)
+* [Награды](https://vk.com/@hypixelbot-commands?anchor=10-nagrady)
+* [Дуэли](https://vk.com/@hypixelbot-commands?anchor=11-dueli)
+* [Браки](https://vk.com/@hypixelbot-commands?anchor=12-braki)
+* [Ролевые игры](https://vk.com/@hypixelbot-commands?anchor=13-rolevye-igry)
+* [Генератор цитат](https://vk.com/@hypixelbot-commands?anchor=14-tsitaty)
+* [API Интеграция](https://vk.com/@hypixelbot-commands?anchor=15-api-integratsia)
 
 ***
 
-[![Донат](https://img.shields.io/badge/Донат-Qiwi-orange.svg)](https://pichugin.life/donate) [![Официальная группа](https://img.shields.io/badge/Официальная-группа-lightblue.svg)](https://vk.com/hypebot)
+[![Донат](https://img.shields.io/badge/Донат-Qiwi-orange.svg)](https://pichug.in/donate?project=hypixelbot) [![Официальная группа](https://img.shields.io/badge/Официальная-группа-lightblue.svg)](https://vk.com/hypixelbot)
